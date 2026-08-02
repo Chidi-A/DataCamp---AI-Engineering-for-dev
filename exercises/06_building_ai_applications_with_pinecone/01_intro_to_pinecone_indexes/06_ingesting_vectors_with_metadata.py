@@ -1,5 +1,5 @@
 # Initialize the Pinecone client with your API key
-pc = Pinecone(api_key="pcsk_4Sag26_4x7aw6CwJCK6cTp798zjzX2CECFu5Dq4hhF89tnQPkTGpiYZTmTZjCJLpVjvtmr")
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
 # Connect to your index
 index = pc.Index("datacamp-index")
