@@ -2,7 +2,7 @@
 loader = UnstructuredHTMLLoader("white_house_executive_order_nov_2023.html")
 data = loader.load()
 
-# Define variables
+# Define variables here
 chunk_size = 300
 chunk_overlap = 100
 
